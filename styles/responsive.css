@@ -182,7 +182,7 @@
         margin: 0 40px;
     }
 
-    .bmi-content,
+    .bmi-content .title,
     .meet-content .title {
         font-size: 2.37rem;
     }
@@ -200,6 +200,10 @@
 
     .footer-section {
         padding: 50px 20px;
+    }
+    .footer-center
+    {
+        margin-top: 50px;
     }
 
     /* (Challenge-section ) */
@@ -237,7 +241,9 @@
     .benefit-list:hover {
         width: 100%;
     }
-
+    .benefit-list .sub-title{
+        font-size: 1rem;
+    }
 
 
 }
