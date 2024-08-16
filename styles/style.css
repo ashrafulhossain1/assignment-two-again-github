@@ -328,7 +328,7 @@ body {
 }
 
 .bmi-content .title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 14px;
 }
 
@@ -432,7 +432,7 @@ select {
 }
 
 .meet-content .title {
-    font-size: 3.625rem;
+    font-size: 3rem;
     margin-bottom: 14px;
 }
 
@@ -644,7 +644,7 @@ iframe {
 
 .benefit-list .sub-title {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-shadow: -1px 0px 8px rgba(0, 0, 0, 1);
 }
 
