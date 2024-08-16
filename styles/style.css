@@ -214,6 +214,7 @@ body {
     background-color: tomato;
     border-radius: 50%;
 }
+
 /* Hero section Ending **********************/
 
 
@@ -286,7 +287,7 @@ body {
 }
 
 .run-content .title {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .run-content .description {
@@ -311,6 +312,7 @@ body {
     object-fit: cover;
     border-radius: 18px;
 }
+
 /* (third) Run extra mile Ending  */
 
 
@@ -326,7 +328,7 @@ body {
 }
 
 .bmi-content .title {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 14px;
 }
 
@@ -351,7 +353,7 @@ body {
 }
 
 .bmi-chart .title {
-    font-size: 1.75rem;
+    font-size: 1rem;
     margin-bottom: 52px;
 }
 
@@ -378,11 +380,11 @@ td {
 }
 
 .bmi-calculator .title {
-    font-size: 28px;
+    font-size: 1rem;
 }
 
 .bmi-calculator .description {
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 14px 0 34px;
 }
 
@@ -400,6 +402,7 @@ select {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     color: rgba(255, 255, 255, 0.6);
+    min-width: 200px;
 }
 
 .bmi-input-container select {
@@ -540,15 +543,121 @@ hr {
     margin: 10px 0;
     font-size: 20px;
 }
+
 /* Footer  section beginning */
 
 /* CHALLENGE PART */
-.benefits-of-fitness{
 
+
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+/* ALERT !!!!!!!!!!!!  IN THIS SECTION I HAVE TAKE CHAT-GPT HELP FOR HOVER EFFECT */
+
+.benefits-of-fitness {
+    padding-top: 20px;
+    /* border: 1px solid rgba(255, 255, 255, 0.1);; */
+    max-width: 1060px;
+    margin: 0 auto 100px;
 }
-.fitness-video{
-width: 40%;
+
+.benefit-content {
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 0 auto 20px;
+    text-align: center;
 }
-.benefit-ideas{
-width: 60%;
+
+.benefit-content .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.benefit-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.fitness-video {
+    padding: 3px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+iframe {
+    border: 1px solid #ffffff12;
+    border-radius: 10px;
+}
+
+.benefit-lists {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.benefit-list {
+    display: flex;
+    gap: 10px;
+    padding: 30px 20px;
+    border-radius: 50px 15px 15px 50px;
+    height: 60px;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    transition: background 0.5s ease, max-width 1s ease, font-size 0.3s ease;
+}
+
+.benefit-list:nth-child(1) {
+    background: #b67401;
+}
+
+.benefit-list:nth-child(2) {
+    background: #E66D5A;
+}
+
+.benefit-list:nth-child(3) {
+    background: #003152;
+}
+
+.benefit-list:nth-child(4) {
+    background: #3C8073;
+}
+
+.benefit-list:nth-child(5) {
+    background: #4CB7BA;
+}
+
+.benefit-list:hover {
+    max-width: 450px;
+    background: #0e0800; 
+    border: 1px solid white;
+    font-size: 1.25rem;
+    padding: 29px 19px;
+}
+
+.benefit-list .sub-title {
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: -1px 0px 8px rgba(0, 0, 0, 1);
+}
+
+.benefit-list .serial-no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 100px / 120px;;
+    text-shadow: -1px 0px 8px rgba(0, 0, 0, 1);
 }

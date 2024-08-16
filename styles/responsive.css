@@ -132,9 +132,7 @@
         width: 100%;
     }
 
-    .run-content .btn-primary{
-
-    }
+    .run-content .btn-primary {}
 
     /* btn div above */
 
@@ -201,7 +199,45 @@
     }
 
     .footer-section {
-
         padding: 50px 20px;
     }
+
+    /* (Challenge-section ) */
+    .benefits-of-fitness {
+        /* border: 2px solid red; */
+        padding: 20px;
+    }
+    .benefit-content {
+        max-width: 80%;
+    }
+    .benefit-content .title {
+        font-size: 1.8rem;
+    }
+    
+
+    .benefit-container {
+        flex-direction: column-reverse;
+        padding: 20px 20px;
+    }
+
+    .fitness-video {
+        width: 100%;
+    }
+
+    .benefit-lists {
+        width: 100%;
+        align-items: center;
+    }
+
+    .benefit-list {
+        border-radius: 50px 50px;
+        max-width: 80%;
+    }
+
+    .benefit-list:hover {
+        width: 100%;
+    }
+
+
+
 }
